@@ -1,4 +1,7 @@
-sc start NfsRdr
+net stop nfsclnt
+net stop nfsrdr
+net start nfsrdr 
+net start nfsclnt
 Get-PSDrive -PSprovider FileSystem
 net use
 [System.IO.DriveInfo]::getdrives()

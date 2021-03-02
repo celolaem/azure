@@ -1,5 +1,3 @@
-net stop nfsclnt
-net stop nfsrdr
 net start nfsrdr 
 net start nfsclnt
 Get-PSDrive -PSprovider FileSystem

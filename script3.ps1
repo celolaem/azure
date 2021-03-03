@@ -5,3 +5,4 @@ if ($connectTestResult.TcpTestSucceeded) {
 } else {
     New-Item C:\Users\tfadmin\Desktop\testfail.txt; Set-Content C:\Users\tfadmin\Desktop\testfail.txt 'Fail Test 445!'
 }
+
